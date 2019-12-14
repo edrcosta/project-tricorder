@@ -1,0 +1,27 @@
+{
+  "name": "project-tricorder",
+  "version": "1.0.0",
+  "description": "a 8 bit computer based in atmega328p",
+  "main": "computer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edrcosta/project-tricorder.git"
+  },
+  "keywords": [
+    "8bit",
+    "atmega"
+  ],
+  "author": "Eder Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edrcosta/project-tricorder/issues"
+  },
+  "homepage": "https://github.com/edrcosta/project-tricorder#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0"
+  }
+}
