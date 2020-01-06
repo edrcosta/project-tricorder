@@ -35,15 +35,12 @@ instruction['['] = () => {
 };
 
 instruction[']'] = () => {
-    if(isLoop){
-        instructionStack += instructionStackLoop.trim();
-    }
+    instructionStack += instructionStackLoop.trim();
+    instructionStackLoop = '';
     isLoop = false;
+
+    console.log(instructionStack)
 };
-
-const setup = () => {
-
-}
 
 const screenUpdate = () => {
 
@@ -70,7 +67,7 @@ const fecthAndExec = () => {
     
     instructionStack = removed; 
     
-    if(isLoop && removed !== ']'){
+    if(isLoop){
         instructionStackLoop = instructionStackLoop.trim() + removed; 
     }
 }
@@ -84,6 +81,7 @@ const main = () => {
         fecthAndExec();
     
         if(instructionStack.length === 0) return false;
+        
         if(updateScreen) screenUpdate(); 
     
         if(typeof instruction[fechedInst] === 'function'){
@@ -97,15 +95,24 @@ const main = () => {
         }
     }
 }
-screenUpdate(); 
-setInterval(main, clockSpeed);
 
+const setup = () => {    
+    screenUpdate(); 
+}
+
+//Emulation controls
+
+setup(); //Atmega setup function 
+setInterval(main, clockSpeed);//atmega clock main 
+
+//Input output terminal
 process.stdin.setEncoding('utf-8');
 process.stdin.on('data', (code) => {
     if(code === 'exit\n'){
-            //we have to go out some time
-        open(); process.exit(); 
+        open(); 
+        process.exit(); 
     }
-
     instructionStack += code;
 });
+
+//Code like this is a pain in the ass back to typescritp 
