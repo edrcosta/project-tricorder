@@ -34,18 +34,23 @@ the main porpose of this project is learn... but the computer will be used as th
 
 ## Project steps 
 
-DONE - Test and learn how components work 
-DONE - KEYBOARD 
-EMULATION 
-  Almost done - Build a brainfuck emulator  (https://github.com/edrcosta/terminal-brainfuck-interpreter)
-  Done - Modify emulator brainfuck into At Brain to be "multicore" 
-  TODO - Build brainfuck emulator to c++
-OPERATING SYSTEM 
-    TODO - Port At Brain emulator to C++  
-TODO - Prototype v1 of computer
-TODO - Build final version 
+1. DONE - Test and learn how components work 
+2. DONE - KEYBOARD 
+3. EMULATION 
+  - Almost done - Build a brainfuck emulator  (https://github.com/edrcosta/terminal-brainfuck-interpreter)
+  - Done - Modify emulator brainfuck into At Brain to be "multicore" 
+  - TODO - Build brainfuck emulator to c++
+4. TODO - OPERATING SYSTEM 
+   - TODO - Port At Brain emulator to C++  
+5. TODO - Prototype v1 of computer
+6. TODO - Build final version 
 
-##### Keyboard 
+## Updates / Experiments
+
+![image](https://user-images.githubusercontent.com/3594012/118572034-d3e47500-b755-11eb-8b06-7ed4595c64fc.png)
+
+
+### Keyboard 
 
 push button matrix 
 ![image](https://user-images.githubusercontent.com/3594012/118571406-553b0800-b754-11eb-9af5-ffc90810b4da.png)
