@@ -1,6 +1,6 @@
 # project-tricorder
 
-A 8 bit computer based on atmega328p
+A handheld computer based on atmega328p and ARM
 
 ## Objective 
 
