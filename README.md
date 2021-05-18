@@ -4,14 +4,7 @@ A 8 bit computer based on atmega328p
 
 ## Objective 
 
-Build a "multi core" computer based on atmega328p... i know the concept of a computer in a microcontroller is "crazy" because all problens in harward archteture about limited code memory and no external RAM... 
-
-but i want this restrictions of hardware to improve my development skill set and have a lower eletronics skill requirement... 
-
-the computer will have 1 or N atmegas internconecteds sharing a memmory map to work as a single computer... 
-
-for this we will have a "esoteric language" based on brainfuck to allow the user a interface with the device. the language i callet At Brain will be a single char instruction language (without count parameters of course rs)... 
-
+Build a hand terminal, with the capability of interface with old processors. 
 
 ## the computer 
 
@@ -42,9 +35,22 @@ the main porpose of this project is learn... but the computer will be used as th
 ## Project steps 
 
 DONE - Test and learn how components work 
-DOING - Build a brainfuck emulator 
-TODO - Port brainfuck emulator to c++
-TODO - Modify emulator brainfuck into At Brain to be "multicore" 
-TODO - Port At Brain emulator to C++
+DONE - KEYBOARD 
+EMULATION 
+  Almost done - Build a brainfuck emulator  (https://github.com/edrcosta/terminal-brainfuck-interpreter)
+  Done - Modify emulator brainfuck into At Brain to be "multicore" 
+  TODO - Build brainfuck emulator to c++
+OPERATING SYSTEM 
+    TODO - Port At Brain emulator to C++  
 TODO - Prototype v1 of computer
 TODO - Build final version 
+
+##### Keyboard 
+
+push button matrix 
+![image](https://user-images.githubusercontent.com/3594012/118571406-553b0800-b754-11eb-9af5-ffc90810b4da.png)
+![image](https://user-images.githubusercontent.com/3594012/118571421-5cfaac80-b754-11eb-88ae-4f1f8d5be271.png)
+
+Keyboard Debug interface 
+
+![image](https://user-images.githubusercontent.com/3594012/118571481-89162d80-b754-11eb-8d5a-9121adab3d9a.png)
