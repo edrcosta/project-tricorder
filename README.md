@@ -1,10 +1,20 @@
 # project-tricorder
 
-A handheld computer based on atmega328p and ARM
+A modular handheld computer. 
+
+This project is more drived by "what i wanto study" now the objective is 
+
+- How to do a "operating system like firmaware" 
+  - how shared memory allocation space can work (plug and play for processing power)
+- Can i use this to drive a z80? 
+  - i wanto to create some kind of "plug and play instruction set" if has an device with z80 connected use it.
+- Why screens broke so much lol
+- 
+For this porpose 
 
 ## Objective 
 
-Build a hand terminal, with the capability of interface with old processors. 
+Build a hand terminal, that can use multiple components and processors
 
 ## the computer 
 
@@ -48,7 +58,6 @@ the main porpose of this project is learn... but the computer will be used as th
 ## Updates / Experiments
 
 ![image](https://user-images.githubusercontent.com/3594012/118572034-d3e47500-b755-11eb-8b06-7ed4595c64fc.png)
-
 
 ### Keyboard 
 
