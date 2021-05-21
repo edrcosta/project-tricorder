@@ -1,16 +1,6 @@
 # project-tricorder
 
-A modular handheld computer. 
-
-This project is more drived by "what i wanto study" now the objective is 
-
-- How to do a "operating system like firmaware" 
-  - how shared memory allocation space can work (plug and play for processing power)
-- Can i use this to drive a z80? 
-  - i wanto to create some kind of "plug and play instruction set" if has an device with z80 connected use it.
-- Why screens broke so much lol
-- 
-For this porpose 
+A modular handheld computer plataform to study eletronics. 
 
 ## Objective 
 
@@ -20,29 +10,31 @@ Build a hand terminal, that can use multiple components and processors
 
 the main porpose of this project is learn... but the computer will be used as the name sugest as a tool for data analisys in hardware... and as a portable gameboy... 
 
-## Hardware 
-
-- 2.42' oled display 
-- 4 atmegas328p 
-- 5v & 3v power regulators 
-- 9v recharchable baterry 
-- querty keyboard 
-- indicator led 
-- wi fi module 
-- bluetooth module
-- 64 mb flash memory 
-
-## hardware ports 
-
-- code input port 
-- vga port 
-- SPI port 
-- UART port 
-- IC2 port 
-- PWM port 
-- audio p2 
-
 ## Project steps 
+
+#### Hardware to study 
+
+OK - 2.42' oled display 
+OK - atmegas328p 
+OK - 3v power regulators 
+Kind of ok - 9v recharchable baterry 
+OK - querty keyboard 
+OK - indicator led 
+OK - wi fi module 
+OK - bluetooth module
+TODO - 64 mb flash memory 
+
+
+#### hardware ports to study 
+
+OK - code input ports
+OK - vga port 
+OK - SPI port 
+OK - UART port 
+OK - I2C port 
+OK - PWM port 
+
+#### Tasks
 
 1. DONE - Test and learn how components work 
 2. DONE - KEYBOARD 
