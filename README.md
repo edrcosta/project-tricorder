@@ -14,25 +14,25 @@ the main porpose of this project is learn... but the computer will be used as th
 
 #### Hardware to study 
 
-OK - 2.42' oled display 
-OK - atmegas328p 
-OK - 3v power regulators 
-Kind of ok - 9v recharchable baterry 
-OK - querty keyboard 
-OK - indicator led 
-OK - wi fi module 
-OK - bluetooth module
-TODO - 64 mb flash memory 
+- OK - 2.42' oled display 
+- OK - atmegas328p 
+- OK - 3v power regulators 
+- Kind of ok - 9v recharchable baterry 
+- OK - querty keyboard 
+- OK - indicator led 
+- OK - wi fi module 
+- OK - bluetooth module
+- TODO - 64 mb flash memory 
 
 
 #### hardware ports to study 
 
-OK - code input ports
-OK - vga port 
-OK - SPI port 
-OK - UART port 
-OK - I2C port 
-OK - PWM port 
+- OK - code input ports
+-- OK - vga port 
+- OK - SPI port 
+- OK - UART port 
+- OK - I2C port 
+- OK - PWM port 
 
 #### Tasks
 
