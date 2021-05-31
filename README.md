@@ -1,6 +1,6 @@
 # project-tricorder
 
-A modular handheld computer plataform to study eletronics. 
+A modular 8bit handheld computer plataform to study eletronics. 
 
 ## Objective 
 
