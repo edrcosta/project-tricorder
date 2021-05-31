@@ -10,6 +10,10 @@ Build a hand terminal, that can use multiple components and processors
 
 the main porpose of this project is learn... but the computer will be used as the name sugest as a tool for data analisys in hardware... and as a portable gameboy... 
 
+the current version use an atmega as display output, an 8051 as central command unit and an attiny85 to generate audio.
+
+![image](https://user-images.githubusercontent.com/3594012/120138173-59cbdb80-c1ac-11eb-972d-1aee753b2ce7.png)
+
 ## Project steps 
 
 #### Hardware to study 
