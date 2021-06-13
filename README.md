@@ -50,17 +50,3 @@ the current version use an atmega as display output, an 8051 as central command 
    - TODO - Port At Brain emulator to C++  
 5. TODO - Prototype v1 of computer
 6. TODO - Build final version 
-
-## Updates / Experiments
-
-![image](https://user-images.githubusercontent.com/3594012/118572034-d3e47500-b755-11eb-8b06-7ed4595c64fc.png)
-
-### Keyboard 
-
-push button matrix 
-![image](https://user-images.githubusercontent.com/3594012/118571406-553b0800-b754-11eb-9af5-ffc90810b4da.png)
-![image](https://user-images.githubusercontent.com/3594012/118571421-5cfaac80-b754-11eb-88ae-4f1f8d5be271.png)
-
-Keyboard Debug interface 
-
-![image](https://user-images.githubusercontent.com/3594012/118571481-89162d80-b754-11eb-8d5a-9121adab3d9a.png)
