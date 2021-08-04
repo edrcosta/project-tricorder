@@ -23,6 +23,10 @@ Block diagram:
 
 ![image](https://user-images.githubusercontent.com/3594012/128116848-bf59ea1c-448e-4fd6-adf5-2a03c9dc9903.png)
 
+https://en.wikipedia.org/wiki/Southbridge_(computing)
+https://en.wikipedia.org/wiki/Northbridge_(computing)
+https://en.wikipedia.org/wiki/Chipset
+https://en.wikipedia.org/wiki/BIOS
 
 ### How it works? 
 
