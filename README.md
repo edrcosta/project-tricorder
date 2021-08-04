@@ -1,18 +1,22 @@
 # project-tricorder
 
 A modular 8bit handheld computer plataform to study eletronics. 
+a crazy dream that slowly become reallity 
 
 ## Objective 
 
-Build a hand terminal, that can use multiple components and processors
+Build a modular handhelt 8 bit retro computer "with a power of an gameboy".
 
 ## the computer 
 
-the main porpose of this project is learn... but the computer will be used as the name sugest as a tool for data analisys in hardware... and as a portable gameboy... 
+![image](https://user-images.githubusercontent.com/3594012/128116066-58a8413d-4160-4418-8acc-8078fc7dd635.png)
 
-the current version use an atmega as display output, an 8051 as central command unit and an attiny85 to generate audio.
+## Reference 
 
-![image](https://user-images.githubusercontent.com/3594012/120138173-59cbdb80-c1ac-11eb-972d-1aee753b2ce7.png)
+If you wanto to do this computer you need to understand the following steps:
+
+- LCD to Atmega328p https://circuitdigest.com/microcontroller-projects/graphical-lcd-interfacing-with-arduino
+- How to upload code into atmea328p https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoToBreadboard
 
 ## Project steps 
 
