@@ -30,8 +30,6 @@ https://en.wikipedia.org/wiki/BIOS
 
 ### How it works? 
 
-
-
 ## Related repositories 
 
 atmega328p testing code: https://github.com/edrcosta/projects.arduino 
