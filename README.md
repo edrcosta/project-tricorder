@@ -9,6 +9,12 @@ Build a modular handhelt 8 bit retro computer "with a power of an gameboy".
 
 ## the computer 
 
+### Architecture
+
+There will be 4 components at this computer a z80a processor, a atmega328p as chip set capable of SPI video output and bootloading, a atmega328p to be a sound generator IC, and a AT89S51 (8051) as a north bridge to control data flow into and out of the z80a processor... and another 8051 to control a plug and play expansion port 
+
+At firt i will attempt to create an basic BIOS program to load assembly code direct into the z80... that will be stored into the atmega328p (chipset)... and a simple firmware into both of the 8051 to comunicate and receive commands from the chipset... 
+
 ### Components 
 
 1. 2x - Atmega328p 
@@ -28,16 +34,7 @@ https://en.wikipedia.org/wiki/Northbridge_(computing)
 https://en.wikipedia.org/wiki/Chipset
 https://en.wikipedia.org/wiki/BIOS
 
-### How it works? 
-
 ## Related repositories 
 
 atmega328p testing code: https://github.com/edrcosta/projects.arduino 
 8051 testing code: https://github.com/edrcosta/8051-mcu-tests
-
-## Reference 
-
-If you wanto to do this computer you need to understand the following steps:
-
-- LCD to Atmega328p https://circuitdigest.com/microcontroller-projects/graphical-lcd-interfacing-with-arduino
-- How to upload code into atmea328p https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoToBreadboard
