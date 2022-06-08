@@ -15,7 +15,15 @@ the core: 1 atmega328p that host and run the BIOS system
 display: TFT display
 input: cardKb its a qwerty i2c keyboard module
 
-## What im researching 
+## What i have learned
 
-Learning I2c 
-Learning about data buses 
+- Im using a i2c databus 
+- i going to need a 8 bit databus if i wanto to be pratical with z80s and running CP/M
+- be aware of the clock
+
+## @todo
+
+- I2c communication library to atmega328p
+- 8 bit bus communication library to atmega328p (maybe use ports... assembly?)
+- AVR DudEeeeeeeeeeeeeeee!!! 
+- I2c on an 8051
