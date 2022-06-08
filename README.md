@@ -9,21 +9,20 @@ Build a modular handhelt 8 bit retro computer "with a power of an gameboy".
 
 ## the computer 
 
-The current version its only a BIOS system to host z80 processors
 
-the core: 1 atmega328p that host and run the BIOS system
-display: TFT display
-input: cardKb its a qwerty i2c keyboard module
+At this stage, im focusing on BIOS (basic input output), im currently writing a firmware for the atmega328p connected to the TFT display that will be capable of:
 
-## What i have learned
+- Write text files into SD card with any extension.
+- Read Text files from sd card.
+- Browser sd card files 
+- Execute simple instructions as a Terminal like "load file.txt" "edit file.txt"
 
-- Im using a i2c databus 
-- i going to need a 8 bit databus if i wanto to be pratical with z80s and running CP/M
-- be aware of the clock
+After i have this i will implement a small IO program to input/output data using the second atmega328p... 
 
-## @todo
+## Components 
 
-- I2c communication library to atmega328p
-- 8 bit bus communication library to atmega328p (maybe use ports... assembly?)
-- AVR DudEeeeeeeeeeeeeeee!!! 
-- I2c on an 8051
+- 2 Atmega 328p MCUs 
+- TFT display ISP 
+- KardB i2c qwerty keyboard
+
+
