@@ -77,24 +77,25 @@ String MENU_1[3] = { "aaaa 1 1", "MENU 1 2", "MENU 1 3" };
 String MENU_2[3] = { "MENU 2 1", "MENU 2 2", "MENU 2 3" };
 
 String *MENUS[] = { MENU_1, MENU_2 };
-int MENU_POINTER = 0;
+
+int MENU_I = 0;
 int MENU_ACTIVE = 0;
 
 void exec_menu(){
   if(renderAllowed()){
     char title[30];
     
-    MENU_TITLES[MENU_POINTER].toCharArray(title, 30);
+    MENU_TITLES[MENU_I].toCharArray(title, 30);
 
     TFTscreen.setTextSize(3);
     TFTscreen.stroke(255,  255, 255);
     TFTscreen.text(title, 5, 10);
 
-    for (size_t i = 0; i < sizeof(MENUS[MENU_POINTER]); i++)
+    for (size_t i = 0; i < sizeof(MENUS[MENU_I]); i++)
     {
-      char text[MENUS[MENU_POINTER][i].length() + 1];
+      char text[MENUS[MENU_I][i].length() + 1];
 
-      MENUS[MENU_POINTER][i].toCharArray(text, MENUS[MENU_POINTER][i].length() + 1);
+      MENUS[MENU_I][i].toCharArray(text, MENUS[MENU_I][i].length() + 1);
 
       TFTscreen.stroke(47,  86, 214);
       
@@ -114,7 +115,7 @@ void exec_menu(){
     int i = isNonAscciKey(X0);
     if(NON_ASCCII_KEYS[i] == "left"){
       MENU_ACTIVE++;
-      if(MENU_ACTIVE > sizeof(MENUS[MENU_POINTER])){
+      if(MENU_ACTIVE > sizeof(MENUS[MENU_I])){
         MENU_ACTIVE = 0;
       }
     }

@@ -1,3 +1,6 @@
+/**
+ * This is a simple firmware that enable test the computer screen and keyboard
+ * */
 #include <TFT.h>  
 #include <SPI.h>
 #include <Wire.h>

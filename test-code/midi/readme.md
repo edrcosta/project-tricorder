@@ -1,2 +1,0 @@
-## Rotary encoders
-
